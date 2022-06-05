@@ -55,7 +55,8 @@
 
 
 /* Rainbow Folders */
-@keyframes rainbow_animation_folders {
+/* V1 - Pompe bcp de CPU */
+/*@keyframes rainbow_animation_folders {
   0%, 100% {background-position: 0 0;}
   50% {background-position: 100% 0;}
 }
@@ -64,8 +65,8 @@
   background-image: linear-gradient(to right, #ff000050, #FF8C0030, #FFD70030, #00FF0030, #00BFFF30 , #6600FF30, #BA55D330 ) !important;
   background-size: 400% 100% !important;
   animation: rainbow_animation_folders 10s linear infinite !important;
-}
-/* V2 */
+}*/
+/* V2 - Pompe un peu mon de CPU */
 /*@keyframes rainbow_animation_folders {
   0%   {background-color: #ff000050;}
 	10%  {background-color: #ff450050;}
