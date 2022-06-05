@@ -6,6 +6,12 @@
   --btn-transition: 0.3s;
 }
 
+body, button {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
 body {
   height: 100vh;
   width: 100%;
@@ -13,9 +19,6 @@ body {
   box-sizing: border-box;
   background: url(../img/bg.jpg) no-repeat top center/cover fixed;
   position: relative;
-  font-size: 16px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
 }
 
 .overlay {
@@ -90,9 +93,12 @@ body {
   margin-bottom: 0;
 }
 
-.template-list li a {
-  color: var(--white-color);
+.template-list li .btn {
   text-decoration: none;
+}
+
+.template-list li p.link-to-copy-info {
+  margin: 0.5em 0 1em;
 }
 
 .btn {

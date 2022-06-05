@@ -6,3 +6,15 @@ $(document).ready(function() {
     }, 500);
   });
 });
+
+function insertAfter(referenceNode, newNode) {
+  referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+}
+
+function copyLink(link, btn) {
+  navigator.clipboard.writeText(link);
+  let elem = document.createElement("p");
+  elem.classList = "link-to-copy-info";
+  elem.innerHTML = "@import copied!";
+  insertAfter(btn, elem);
+}
