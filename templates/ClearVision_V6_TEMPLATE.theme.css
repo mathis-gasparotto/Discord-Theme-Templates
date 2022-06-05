@@ -43,11 +43,11 @@
 
 /* Image error Loading */
 .imageError-dy476I {
-	background-image: url(https://cdn.discordapp.com/attachments/705905456316416091/982812291512807424/Caca.png)!important;
+  background-image: url(https://cdn.discordapp.com/attachments/705905456316416091/982812291512807424/Caca.png)!important;
 }
 .imageError-dy476I {
-    filter: none;
-    opacity: 1;
+  filter: none;
+  opacity: 1;
 }
 
 
@@ -56,18 +56,18 @@
 
 /* Rainbow Folders */
 @keyframes rainbow_animation_folders {
-    0%, 100% {background-position: 0 0;}
-    50% {background-position: 100% 0;}
+  0%, 100% {background-position: 0 0;}
+  50% {background-position: 100% 0;}
 }
 .folderIconWrapper-1oRIZr{    
-    background: none;
-    background-image: linear-gradient(to right, #ff000050, #FF8C0030, #FFD70030, #00FF0030, #00BFFF30 , #6600FF30, #BA55D330 ) !important;
-    background-size: 400% 100% !important;
-    animation: rainbow_animation_folders 10s linear infinite !important;
+  background: none;
+  background-image: linear-gradient(to right, #ff000050, #FF8C0030, #FFD70030, #00FF0030, #00BFFF30 , #6600FF30, #BA55D330 ) !important;
+  background-size: 400% 100% !important;
+  animation: rainbow_animation_folders 10s linear infinite !important;
 }
 /* V2 */
 /*@keyframes rainbow_animation_folders {
-    0%   {background-color: #ff000050;}
+  0%   {background-color: #ff000050;}
 	10%  {background-color: #ff450050;}
 	20%  {background-color: #ffa50050;}
 	30%  {background-color: #ffff0050;}
@@ -80,7 +80,7 @@
 	100% {background-color: #ff000050;}
 }
 .folder-241Joy{
-    animation: rainbow_animation_folders 7.5s linear infinite !important;
+  animation: rainbow_animation_folders 7.5s linear infinite !important;
 }*/
 
 
@@ -110,7 +110,7 @@
 
 /* Private call avatar muted badge color */
 .status-1ZXjSF {
-    background-color: var(--main-color);
+  background-color: var(--main-color);
 }
 
 
@@ -119,7 +119,7 @@
 
 /* Icon mute de serv en main color */
 .icon-N9JZb6 {
-    color: var(--main-color);
+  color: var(--main-color);
 }
 
 
@@ -128,24 +128,24 @@
 
 /* themes and plugins edit */
 .bd-addon-list .bd-addon-header {
-    color: #fff;
-    background: rgba(0, 0, 0, 0.15);
-    padding: 16px;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    overflow: hidden;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.15);
+  padding: 16px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
 }
 .bd-addon-list .bd-addon-card {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    overflow: hidden;
-    background: rgba(43, 43, 43, 0.2);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  background: rgba(43, 43, 43, 0.2);
 	backdrop-filter: blur(20px);
 }
 .bd-addon-list .bd-addon-card .bd-controls .bd-button {
@@ -163,7 +163,7 @@
 /* Card tranparent */
 /*.userPopout-2j1gM4{
 	background: rgba(43, 43, 43, 0.2);
-  	backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
 }*/
 /* Sans le header - Little Card */
 .userPopout-2j1gM4 .headerNormal-3Zn_yu .banner-1YaD3N.popoutBanner-3cqRD9 {
@@ -191,56 +191,56 @@
 
 /* RGB ma gueule */
 /*@keyframes chroma {
-    0% {color: red;}
-    10% {color: orangered;}
-    20% {color: orange;}
-    30% {color: yellow;}
-    40% {color: yellowgreen;}
-    50% {color: turquoise;}
-    75% {color: blue;}
-    90% {color: rgb(147, 4, 248);}
-    100% {color: rgb(255, 0, 55);}
+  0% {color: red;}
+  10% {color: orangered;}
+  20% {color: orange;}
+  30% {color: yellow;}
+  40% {color: yellowgreen;}
+  50% {color: turquoise;}
+  75% {color: blue;}
+  90% {color: rgb(147, 4, 248);}
+  100% {color: rgb(255, 0, 55);}
 }
 
 .hljs-attr, .hljs-attribute, .hljs-class .hljs-title, .hljs-template-variable, .hljs-type, .hljs-variable {
-    filter: brightness(1.5);
-    animation: chroma 5s ease-in-out infinite;
+  filter: brightness(1.5);
+  animation: chroma 5s ease-in-out infinite;
 }
 .hljs-addition, .hljs-keyword, .hljs-selector-tag {
-    filter: brightness(2);
-    animation: chroma 5s ease-in-out infinite;
+  filter: brightness(2);
+  animation: chroma 5s ease-in-out infinite;
 }
 .hljs-name, .hljs-section, .hljs-selector-class, .hljs-selector-id, .hljs-title {
-    filter: brightness(2);
-    animation: chroma 5s ease-in-out infinite;
+  filter: brightness(2);
+  animation: chroma 5s ease-in-out infinite;
 }
 .hljs-doctag, .hljs-literal, .hljs-meta .hljs-meta-string, .hljs-number, .hljs-regexp, .hljs-string {
-    filter: brightness(2);
-    animation: chroma 5s ease-in-out infinite;
+  filter: brightness(2);
+  animation: chroma 5s ease-in-out infinite;
 }
 .hljs-built_in, .hljs-deletion {
-    filter: brightness(2);
-    animation: chroma 5s ease-in-out infinite;
+  filter: brightness(2);
+  animation: chroma 5s ease-in-out infinite;
 }*/
 /* links */
 /*.anchor-1MIwyf.anchorUnderlineOnHover-2qPutX {
 	filter: brightness(2);
-    animation: chroma 5s ease-in-out infinite;
+  animation: chroma 5s ease-in-out infinite;
 }*/
 /* username - on conv */
 /*.username-h_Y3Us.desaturateUserColors-1O-G89.clickable-31pE3P {
 	filter: brightness(2);
-    animation: chroma 5s ease-in-out infinite;
+  animation: chroma 5s ease-in-out infinite;
 }*/
 /* username - on border */
 /*.name-3Vmqxm .desaturateUserColors-1O-G89 span {
 	filter: brightness(2);
-    animation: chroma 5s ease-in-out infinite;
+  animation: chroma 5s ease-in-out infinite;
 }*/
 /* username - all */
 /*.username-h_Y3Us.desaturateUserColors-1O-G89.clickable-31pE3P,.name-3Vmqxm .desaturateUserColors-1O-G89 span {
 	filter: brightness(2);
-    animation: chroma 5s ease-in-out infinite;
+  animation: chroma 5s ease-in-out infinite;
 }*/
 
 
@@ -249,7 +249,7 @@
 
 /* Barre des salons/conv */
 .sidebar-1tnWFu {
-    width: 230px;
+  width: 230px;
 }
 
 
@@ -267,9 +267,9 @@
 }
 .scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt>div[aria-label] {
 	width: calc(72px * var(--server-list-column-number));
-    display: flex;
+  display: flex;
 	flex-direction: row;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 .wrapper-1_HaEi.guilds-2JjMmN {
 	width: calc(72px * var(--server-list-column-number));
@@ -390,8 +390,8 @@
 /*:root {
 	--server-size: 45px;/*var(--HSL-server-icon-size, var(--HSL-size, 35px))*/
 /*	--server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 10px));
-    --server-container: calc(var(--server-size) + 20px);
-    --server-direction: var(--HSL-server-direction, column);
+  --server-container: calc(var(--server-size) + 20px);
+  --server-direction: var(--HSL-server-direction, column);
 }
 
 #app-mount .app-3xd6d0 .base-2jDfDU {
