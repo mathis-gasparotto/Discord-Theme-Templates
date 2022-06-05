@@ -1,0 +1,137 @@
+:root {
+  --primary-color: #fbb03b;
+  --secondary-color: #14171c;
+  --white-color: #fff;
+  --black-color: #000;
+  --btn-transition: 0.3s;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  background: url(../img/bg.jpg) no-repeat top center/cover fixed;
+  position: relative;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(43, 51, 59, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+}
+
+.inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  box-sizing: border-box;
+  color: var(--white-color);
+}
+
+.logo-container {
+  position: absolute;
+  top: 3vh;
+  left: 5%;
+}
+
+.logo-container .logo {
+  width: 100px;
+}
+
+.title-container {
+  height: 25vh;
+  display: flex;
+  align-items: center;
+}
+
+.title-container .title {
+  font-size: 2.7em;
+  font-weight: 600;
+}
+.title-container .title span {
+  font-weight: 300;
+}
+
+.template-list-container {
+  padding-bottom: 70px;
+}
+
+.template-list {
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 1em;
+}
+
+.template-list li {
+  margin-bottom: 2em;
+}
+
+.template-list li:last-child {
+  margin-bottom: 0;
+}
+
+.template-list li a {
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0.6rem 1.3rem;
+  transition: var(--btn-transition);
+}
+
+.btn:hover {
+  transform: scale(1.02);
+  transition: var(--btn-transition);
+}
+
+.btn.btn-primary {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  transition: var(--btn-transition);
+}
+
+.btn.btn-primary:hover {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  transition: var(--btn-transition);
+}
+
+.btn.btn-secondary {
+  color: var(--white-color);
+  background-color: var(--secondary-color);
+  transition: var(--btn-transition);
+  box-shadow: 0px 0px 9px 2px rgb(156 156 156 / 15%);
+}
+
+.btn.btn-secondary:hover {
+  color: var(--secondary-color);
+  background-color: var(--white-color);
+  transition: var(--btn-transition);
+  box-shadow: none;
+}

@@ -1,0 +1,714 @@
+/**
+ * @name ClearVision_V6_TEMPLATE
+ * @version 6.3.0
+ * @author Maggio
+ * @description Template of ClearVision 6.3 Theme, by Maggio
+ * @source https://github.com/ClearVision/ClearVision-v6
+ * @website https://mathis-gasparotto.github.io/ClearVision_TEMPLATE/
+ * @invite kV3fj5F6fF
+ */
+
+
+/* IMPORT CSS */
+@import url(https://clearvision.gitlab.io/v6/main.css);
+@import url(https://leafyluigi.github.io/CVv6-CustomCSS/Custom-CSS.css);
+
+
+/* Horizontal Server List */
+/*@import url(https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css);*/
+
+
+
+/* Loading */
+.imageWrapperInner-3X03J4>.spinner-2RT7ZC  {
+	background-image: url(https://cdn.discordapp.com/emojis/860975934093262869.gif);
+	/*
+	*	STEVE FORTNITE DANCE : https://cdn.discordapp.com/emojis/860975934093262869.gif
+	*	DOG SPINNING : https://media.discordapp.net/attachments/563023803899445268/563040952906678272/Chien_incroyable_GIF.gif
+	*	DANCING CAT : https://images-ext-1.discordapp.net/external/DThTET3TrRKwWl2qCwKi9fWlUv6H_FDr3CxL16iQWlA/https/media.discordapp.net/attachments/729747258530070591/805845469477077033/catJAM.gif 
+	*/
+	background-size: 100%;
+	width: 80px;
+	height: 80px;
+	animation: none;
+	-webkit-animation: none;
+}
+.imageWrapperInner-3X03J4>.spinner-2RT7ZC>.inner-26JK4f span {
+	display: none;
+}
+
+
+
+
+
+/* Image error Loading */
+.imageError-dy476I {
+	background-image: url(https://cdn.discordapp.com/attachments/705905456316416091/982812291512807424/Caca.png)!important;
+}
+.imageError-dy476I {
+    filter: none;
+    opacity: 1;
+}
+
+
+
+
+
+/* Rainbow Folders */
+@keyframes rainbow_animation_folders {
+    0%, 100% {background-position: 0 0;}
+    50% {background-position: 100% 0;}
+}
+.folderIconWrapper-1oRIZr{    
+    background: none;
+    background-image: linear-gradient(to right, #ff000050, #FF8C0030, #FFD70030, #00FF0030, #00BFFF30 , #6600FF30, #BA55D330 ) !important;
+    background-size: 400% 100% !important;
+    animation: rainbow_animation_folders 10s linear infinite !important;
+}
+/* V2 */
+/*@keyframes rainbow_animation_folders {
+    0%   {background-color: #ff000050;}
+	10%  {background-color: #ff450050;}
+	20%  {background-color: #ffa50050;}
+	30%  {background-color: #ffff0050;}
+	40%  {background-color: #9acd3250;}
+	50%  {background-color: #40e0d050;}
+	60%  {background-color: #0000ff50;}
+	70%  {background-color: #5604f850;}
+	80%  {background-color: #f804f150;}
+	90%  {background-color: #ff007650;}
+	100% {background-color: #ff000050;}
+}
+.folder-241Joy{
+    animation: rainbow_animation_folders 7.5s linear infinite !important;
+}*/
+
+
+
+
+
+/* "ClearVision" en japonnais */
+/*.typeWindows-2-g3UY > .wordmark-2u86JB:before {
+  content: "クリアビション";
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  text-shadow: 0 0 3px #000;
+}*/
+
+
+
+
+/* Search box en transparent */
+#app-mount .container-2McqkF {
+  background: rgba(43, 43, 43, 0.2);
+  backdrop-filter: blur(30px);
+}
+
+
+
+
+
+/* Private call avatar muted badge color */
+.status-1ZXjSF {
+    background-color: var(--main-color);
+}
+
+
+
+
+
+/* Icon mute de serv en main color */
+.icon-N9JZb6 {
+    color: var(--main-color);
+}
+
+
+
+
+
+/* themes and plugins edit */
+.bd-addon-list .bd-addon-header {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.15);
+    padding: 16px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.bd-addon-list .bd-addon-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    background: rgba(43, 43, 43, 0.2);
+	backdrop-filter: blur(20px);
+}
+.bd-addon-list .bd-addon-card .bd-controls .bd-button {
+	background-color: #3e82e5;
+}
+.bd-addon-list .bd-addon-card .bd-controls .bd-button.bd-button-danger {
+	background-color: #f04747;
+}
+
+
+
+
+
+/* User Card Transparent et sans truc au-dessus */
+/* Card tranparent */
+/*.userPopout-2j1gM4{
+	background: rgba(43, 43, 43, 0.2);
+  	backdrop-filter: blur(30px);
+}*/
+/* Sans le header - Little Card */
+.userPopout-2j1gM4 .headerNormal-3Zn_yu .banner-1YaD3N.popoutBanner-3cqRD9 {
+	background: var(--user-popout-overlay) !important;
+}
+/* Sans le header - Big Card */
+.banner-1YaD3N.profileBanner-1owKI5 {
+	background: var(--user-popout-overlay) !important;
+	-webkit-mask: linear-gradient(rgba(0, 0, 0, 0.95) 5%, rgba(0, 0, 0, 0.5) 50%, transparent);
+  mask: linear-gradient(rgba(0, 0, 0, 0.95) 5%, rgba(0, 0, 0, 0.5) 50%, transparent);
+}
+
+
+
+
+
+/* barre gauche des embed en conv */
+.embed-hKpSrO {
+	border-color: var(--main-color) !important;
+}
+
+
+
+
+
+/* RGB ma gueule */
+/*@keyframes chroma {
+    0% {color: red;}
+    10% {color: orangered;}
+    20% {color: orange;}
+    30% {color: yellow;}
+    40% {color: yellowgreen;}
+    50% {color: turquoise;}
+    75% {color: blue;}
+    90% {color: rgb(147, 4, 248);}
+    100% {color: rgb(255, 0, 55);}
+}
+
+.hljs-attr, .hljs-attribute, .hljs-class .hljs-title, .hljs-template-variable, .hljs-type, .hljs-variable {
+    filter: brightness(1.5);
+    animation: chroma 5s ease-in-out infinite;
+}
+.hljs-addition, .hljs-keyword, .hljs-selector-tag {
+    filter: brightness(2);
+    animation: chroma 5s ease-in-out infinite;
+}
+.hljs-name, .hljs-section, .hljs-selector-class, .hljs-selector-id, .hljs-title {
+    filter: brightness(2);
+    animation: chroma 5s ease-in-out infinite;
+}
+.hljs-doctag, .hljs-literal, .hljs-meta .hljs-meta-string, .hljs-number, .hljs-regexp, .hljs-string {
+    filter: brightness(2);
+    animation: chroma 5s ease-in-out infinite;
+}
+.hljs-built_in, .hljs-deletion {
+    filter: brightness(2);
+    animation: chroma 5s ease-in-out infinite;
+}*/
+/* links */
+/*.anchor-1MIwyf.anchorUnderlineOnHover-2qPutX {
+	filter: brightness(2);
+    animation: chroma 5s ease-in-out infinite;
+}*/
+/* username - on conv */
+/*.username-h_Y3Us.desaturateUserColors-1O-G89.clickable-31pE3P {
+	filter: brightness(2);
+    animation: chroma 5s ease-in-out infinite;
+}*/
+/* username - on border */
+/*.name-3Vmqxm .desaturateUserColors-1O-G89 span {
+	filter: brightness(2);
+    animation: chroma 5s ease-in-out infinite;
+}*/
+/* username - all */
+/*.username-h_Y3Us.desaturateUserColors-1O-G89.clickable-31pE3P,.name-3Vmqxm .desaturateUserColors-1O-G89 span {
+	filter: brightness(2);
+    animation: chroma 5s ease-in-out infinite;
+}*/
+
+
+
+
+
+/* Barre des salons/conv */
+.sidebar-1tnWFu {
+    width: 230px;
+}
+
+
+
+
+
+/* Multiple serv column */
+:root {
+	--server-list-column-number : 1;
+}
+.scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt>div[aria-label] {
+	width: calc(72px * var(--server-list-column-number));
+    display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+}
+.wrapper-1_HaEi.guilds-2JjMmN {
+	width: calc(72px * var(--server-list-column-number));
+}
+
+
+
+
+
+/* settings icons for mutliple language*/
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG:before {
+	content: "";
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 15px;
+	margin-top: -2px;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG {
+	padding-left: 50px !important;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG:hover:before {
+	transform: rotateY(180deg);
+	transition: all .15s ease-in-out;
+}
+
+
+.sidebar-nqHbhN .side-2ur1Qk [aria-controls=my-account-tab].item-3XjbnG:before {
+	background-image: url(https://clearvision.gitlab.io/icons/person.svg);
+}
+.sidebar-nqHbhN .side-2ur1Qk [aria-controls=profile-customization-tab].item-3XjbnG:before {
+	background-image: url(https://clearvision.gitlab.io/icons/user_profile.svg);
+}
+.sidebar-nqHbhN .side-2ur1Qk [aria-controls="privacy-&-safety-tab"].item-3XjbnG:before {
+	background-image: url(https://clearvision.gitlab.io/icons/security.svg);
+}
+.sidebar-nqHbhN .side-2ur1Qk [aria-controls=authorized-apps-tab].item-3XjbnG:before {
+	background-image: url(https://clearvision.gitlab.io/icons/apps.svg);
+}
+.sidebar-nqHbhN .side-2ur1Qk [aria-controls=connections-tab].item-3XjbnG:before {
+	background-image: url(https://clearvision.gitlab.io/icons/link.svg);
+}
+
+.sidebar-nqHbhN .side-2ur1Qk [aria-controls=discord-nitro-tab].item-3XjbnG:before {
+	background-image: url(https://clearvision.gitlab.io/icons/nitro.svg);
+}
+.sidebar-nqHbhN .side-2ur1Qk [aria-controls=nitro-server-boost-tab].item-3XjbnG:before {
+	background-image: url(https://clearvision.gitlab.io/icons/server_boost.svg);
+}
+.sidebar-nqHbhN .side-2ur1Qk [aria-controls=subscriptions-tab].item-3XjbnG:before {
+	background-image: url(https://clearvision.gitlab.io/icons/subscriptions.svg);
+}
+.sidebar-nqHbhN .side-2ur1Qk [aria-controls=library-inventory-tab].item-3XjbnG:before {
+	background-image: url(https://clearvision.gitlab.io/icons/gift.svg);
+}
+.sidebar-nqHbhN .side-2ur1Qk [aria-controls=billing-tab].item-3XjbnG:before {
+	background-image: url(https://clearvision.gitlab.io/icons/payment.svg);
+}
+
+.sidebar-nqHbhN .side-2ur1Qk [aria-controls=appearance-tab].item-3XjbnG:before {
+	background-image: url(https://clearvision.gitlab.io/icons/camera.svg);
+}
+.sidebar-nqHbhN .side-2ur1Qk [aria-controls=accessibility-tab].item-3XjbnG:before {
+	background-image: url(https://clearvision.gitlab.io/icons/accessibility.svg);
+}
+.sidebar-nqHbhN .side-2ur1Qk [aria-controls="voice-&-video-tab"].item-3XjbnG:before {
+	background-image: url(https://clearvision.gitlab.io/icons/mic.svg);
+}
+.sidebar-nqHbhN .side-2ur1Qk [aria-controls="text-&-images-tab"].item-3XjbnG:before {
+	background-image: url(https://clearvision.gitlab.io/icons/chat.svg);
+}
+.sidebar-nqHbhN .side-2ur1Qk [aria-controls=notifications-tab].item-3XjbnG:before {
+	background-image: url(https://clearvision.gitlab.io/icons/notifications.svg);
+}
+.sidebar-nqHbhN .side-2ur1Qk [aria-controls=keybinds-tab].item-3XjbnG:before {
+	background-image: url(https://clearvision.gitlab.io/icons/keyboard.svg);
+}
+.sidebar-nqHbhN .side-2ur1Qk [aria-controls=language-tab].item-3XjbnG:before {
+	background-image: url(https://clearvision.gitlab.io/icons/language.svg);
+}
+.sidebar-nqHbhN .side-2ur1Qk [aria-controls=language-tab].item-3XjbnG:before {
+	background-image: url(https://clearvision.gitlab.io/icons/language.svg);
+}
+.sidebar-nqHbhN .side-2ur1Qk [aria-controls=windows-tab].item-3XjbnG:before {
+	background-image: url(https://clearvision.gitlab.io/icons/windows.svg);
+}
+.sidebar-nqHbhN .side-2ur1Qk [aria-controls=streamer-mode-tab].item-3XjbnG:before {
+	background-image: url(https://clearvision.gitlab.io/icons/videocam.svg);
+}
+.sidebar-nqHbhN .side-2ur1Qk [aria-controls=advanced-tab].item-3XjbnG:before {
+	background-image: url(https://clearvision.gitlab.io/icons/bug.svg);
+}
+
+.sidebar-nqHbhN .side-2ur1Qk [aria-controls=game-activity-tab].item-3XjbnG:before {
+	background-image: url(https://clearvision.gitlab.io/icons/games.svg);
+}
+.sidebar-nqHbhN .side-2ur1Qk [aria-controls=overlay-tab].item-3XjbnG:before {
+	background-image: url(https://clearvision.gitlab.io/icons/aspect_ratio.svg);
+}
+
+.sidebar-nqHbhN .side-2ur1Qk [aria-controls=changelog-tab].item-3XjbnG:before {
+	background-image: url(https://clearvision.gitlab.io/icons/history.svg);
+}
+.sidebar-nqHbhN .side-2ur1Qk [aria-controls=hypesquad-online-tab].item-3XjbnG:before {
+	background-image: url(https://clearvision.gitlab.io/icons/hypesquad.svg);
+}
+
+.sidebar-nqHbhN .side-2ur1Qk [aria-controls=logout-tab].item-3XjbnG:before {
+	-webkit-mask: url(https://clearvision.gitlab.io/icons/exit.svg);
+	mask: url(https://clearvision.gitlab.io/icons/exit.svg);
+}
+
+
+
+
+
+/* horizontal server list */
+/*:root {
+	--server-size: 45px;/*var(--HSL-server-icon-size, var(--HSL-size, 35px))*/
+/*	--server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 10px));
+    --server-container: calc(var(--server-size) + 20px);
+    --server-direction: var(--HSL-server-direction, column);
+}
+
+#app-mount .app-3xd6d0 .base-2jDfDU {
+  top: var(--server-container) !important;
+  position: absolute !important;
+  left: 0 !important;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+}
+#app-mount .sidebar-1tnWFu {
+  border-radius: 0;
+}
+#app-mount [class*=unreadMentionsIndicator] {
+  width: var(--server-size);
+  padding: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: auto;
+}
+#app-mount .guilds-2JjMmN {
+  transform-origin: top left;
+  transform: rotate(-90deg);
+  height: 100vw !important;
+  width: var(--server-container);
+  top: var(--server-container);
+  bottom: unset;
+  position: absolute !important;
+  left: 0;
+}
+#app-mount .guilds-2JjMmN > [data-list-id=guildsnav] {
+  margin-bottom: 0 !important;
+}
+#app-mount .guilds-2JjMmN .scrollerWrap-1IAIlv {
+  width: calc(100% + 30px);
+}
+#app-mount .guilds-2JjMmN .scrollerBase-_bVAAt {
+  padding: var(--server-spacing) 0 !important;
+  display: flex;
+  flex-direction: var(--server-direction);
+  gap: var(--server-spacing);
+}
+#app-mount .guilds-2JjMmN .scrollerBase-_bVAAt > div[style]:not(.listItem-2P_4kh) {
+  height: auto !important;
+}
+#app-mount .guilds-2JjMmN .scrollerBase-_bVAAt > div[style]:not(.listItem-2P_4kh)[style*="height: 0px"] {
+  padding-top: 1px;
+}
+#app-mount .guilds-2JjMmN .scrollerBase-_bVAAt > div[aria-label] {
+  display: flex;
+  flex-direction: var(--server-direction);
+  gap: var(--server-spacing);
+}
+#app-mount .guilds-2JjMmN .svg-2zuE5p,
+#app-mount .guilds-2JjMmN .wrapper-28eC3z,
+#app-mount .guilds-2JjMmN .guildsError-b7zR5H,
+#app-mount .guilds-2JjMmN .placeholderMask-2FHNZU {
+  width: var(--server-size);
+  height: var(--server-size);
+}
+#app-mount .guilds-2JjMmN [role=group] {
+  height: auto !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] {
+  transform: rotate(90deg) translateY(-50%);
+  height: var(--server-size);
+  width: 4px;
+  top: calc(var(--server-size) / -1 + var(--server-size) / 2 - 8px) !important;
+  margin-left: -2px;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span {
+  height: 100% !important;
+  width: 4px !important;
+  transform: scale(0, 1) !important;
+  transition: 0.15s ease !important;
+  margin-left: 0;
+  border-radius: 0 4px 4px 0;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 0"] {
+  transform: scale(1, 0.24) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 1"] {
+  transform: scale(1, 0.24) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 2"] {
+  transform: scale(1, 0.24) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 3"] {
+  transform: scale(1, 0.24) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 4"] {
+  transform: scale(1, 0.24) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 5"] {
+  transform: scale(1, 0.24) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 6"] {
+  transform: scale(1, 0.24) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 7"] {
+  transform: scale(1, 0.24) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 8"] {
+  transform: scale(1, 0.24) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 9"] {
+  transform: scale(1, 0.7) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 10"] {
+  transform: scale(1, 0.7) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 11"] {
+  transform: scale(1, 0.7) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 12"] {
+  transform: scale(1, 0.7) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 13"] {
+  transform: scale(1, 0.7) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 14"] {
+  transform: scale(1, 0.7) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 15"] {
+  transform: scale(1, 0.7) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 16"] {
+  transform: scale(1, 0.7) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 17"] {
+  transform: scale(1, 0.7) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 18"] {
+  transform: scale(1, 0.7) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 19"] {
+  transform: scale(1, 0.7) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 20"] {
+  transform: scale(1, 0.7) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 21"] {
+  transform: scale(1, 1) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 22"] {
+  transform: scale(1, 1) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 23"] {
+  transform: scale(1, 1) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 24"] {
+  transform: scale(1, 1) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 25"] {
+  transform: scale(1, 1) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 26"] {
+  transform: scale(1, 1) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 27"] {
+  transform: scale(1, 1) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 28"] {
+  transform: scale(1, 1) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 29"] {
+  transform: scale(1, 1) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 30"] {
+  transform: scale(1, 1) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 31"] {
+  transform: scale(1, 1) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 32"] {
+  transform: scale(1, 1) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 33"] {
+  transform: scale(1, 1) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 34"] {
+  transform: scale(1, 1) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 35"] {
+  transform: scale(1, 1) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 36"] {
+  transform: scale(1, 1) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 37"] {
+  transform: scale(1, 1) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 38"] {
+  transform: scale(1, 1) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 39"] {
+  transform: scale(1, 1) !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 40"] {
+  transform: scale(1, 1) !important;
+}
+#app-mount .guilds-2JjMmN .wrapper-z5ab_q {
+  height: var(--server-size) !important;
+}
+#app-mount .guilds-2JjMmN .wrapper-38slSD {
+  width: var(--server-container);
+  display: flex;
+  flex-direction: var(--server-direction);
+  gap: var(--server-spacing);
+}
+#app-mount .guilds-2JjMmN .wrapper-38slSD ul[role=group] {
+  display: flex;
+  flex-direction: var(--server-direction);
+  gap: var(--server-spacing);
+}
+#app-mount .guilds-2JjMmN [class*=listItem]:not([class*=listItemWrapper]) {
+  width: var(--server-size);
+  transform: rotate(90deg);
+  margin: 0 10px;
+  position: unset;
+}
+#app-mount .guilds-2JjMmN [class*=guildSeparator] {
+  transform: rotate(90deg);
+  width: var(--server-size);
+}
+#app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
+  width: var(--server-size);
+  left: 50%;
+  border-radius: 10px;
+  transform: translateX(-50%);
+  height: 100%;
+}
+#app-mount .guilds-2JjMmN .folder-21wGz3 {
+  background: transparent;
+}
+#app-mount .guilds-2JjMmN .wrapper-3XVBev {
+  top: 0;
+  bottom: 0;
+}
+#app-mount .guilds-2JjMmN .target-1eRTCg::before {
+  top: 0;
+  height: var(--server-size);
+  width: 4px;
+  left: -6px;
+}
+#app-mount .guilds-2JjMmN.hidden-10MsGQ + .base-2jDfDU {
+  top: 0 !important;
+}
+#app-mount [class*=listItemTooltip] {
+  position: absolute;
+  max-width: unset;
+  white-space: nowrap;
+  margin-left: calc(var(--server-size) / -1 - 20px);
+  top: calc(var(--server-size) - 10px);
+}
+#app-mount [class*=listItemTooltip] [class*=tooltipPointer] {
+  transform: rotate(180deg);
+  top: -5px;
+  right: unset;
+  left: 13px;
+  z-index: 1;
+}
+#app-mount .friendsOnline-2JkivW {
+  position: absolute;
+  transform: translate(-50%, 50%);
+  top: calc(-50% + var(--server-spacing));
+  left: -50%;
+  width: calc(var(--server-size) + var(--server-spacing));
+  display: flex;
+  justify-content: center;
+}
+#app-mount .guilds-2JjMmN.content-Pph8t6, #app-mount .BF-folderSidebar {
+  position: absolute !important;
+  top: calc(var(--server-container) * 2) !important;
+}
+#app-mount .guilds-2JjMmN.content-Pph8t6:not(.closed-j55_T-) + .base-2jDfDU, #app-mount .BF-folderSidebar:not(.closed-j55_T-) + .base-2jDfDU {
+  top: calc(var(--server-container) * 2.5) !important;
+}
+#app-mount .guilds-2JjMmN .frame-oXWS21[class*=listItem] {
+  height: var(--server-size) !important;
+}
+#app-mount .guilds-2JjMmN .frame-oXWS21[class*=listItem] .wrapper-3kah-n {
+  height: 100% !important;
+}
+#app-mount .guilds-2JjMmN .frame-oXWS21[class*=listItem] .button-Jt-tIg {
+  width: 100%;
+  height: 100% !important;
+  border-radius: 50%;
+  padding: 2px;
+  font-size: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+#app-mount .BF-folderSidebar {
+  top: calc(var(--server-container)) !important;
+}
+#app-mount .serverCountWrap-k8F5De {
+  height: var(--server-size);
+}
+#app-mount .serverCount-FsTTs1 {
+  white-space: pre-line;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+html.platform-osx #app-mount .typeMacOS-3EmCyP {
+  width: 100%;
+}
+html.platform-osx #app-mount .base-2jDfDU {
+  top: calc(var(--server-container) + 30px) !important;
+}
+html.platform-osx #app-mount #pluginNotice {
+  top: 32px;
+  z-index: 100000 !important;
+}
+
+body.foldercontentopened .base-2jDfDU {
+  transition: 0.2s ease !important;
+}*/
