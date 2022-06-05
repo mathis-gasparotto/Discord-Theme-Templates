@@ -48,7 +48,7 @@ body {
 }
 
 .logo-container {
-  position: absolute;
+  position: fixed;
   top: 3vh;
   left: 5%;
 }
