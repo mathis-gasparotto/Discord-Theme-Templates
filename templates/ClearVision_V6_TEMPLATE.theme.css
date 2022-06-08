@@ -250,11 +250,18 @@
 
 
 
-/* Barre des salons/conv */
+/* DM/channel bar */
 .sidebar-1tnWFu {
   width: 230px;
 }
 
+
+
+
+/* removing black background to server icons */
+.icon-3AqZ2e {
+  background: none;
+}
 
 
 
