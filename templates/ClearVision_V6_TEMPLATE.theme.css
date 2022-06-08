@@ -20,7 +20,7 @@
 
 
 /* Loading */
-.imageWrapperInner-3X03J4>.spinner-2RT7ZC  {
+/*.imageWrapperInner-3X03J4>*/.spinner-2RT7ZC  {
 	background-image: url(https://cdn.discordapp.com/emojis/860975934093262869.gif);
 	/*
 	*	STEVE FORTNITE DANCE : https://cdn.discordapp.com/emojis/860975934093262869.gif
@@ -33,7 +33,7 @@
 	animation: none;
 	-webkit-animation: none;
 }
-.imageWrapperInner-3X03J4>.spinner-2RT7ZC>.inner-26JK4f span {
+/*.imageWrapperInner-3X03J4>*/.spinner-2RT7ZC>.inner-26JK4f span {
 	display: none;
 }
 
@@ -55,6 +55,7 @@
 
 
 /* Rainbow Folders */
+
 /* V1 - Pompe bcp de CPU */
 /*@keyframes rainbow_animation_folders {
   0%, 100% {background-position: 0 0;}
@@ -66,7 +67,8 @@
   background-size: 400% 100% !important;
   animation: rainbow_animation_folders 10s linear infinite !important;
 }*/
-/* V2 - Pompe un peu mon de CPU */
+
+/* V2 - Pompe un peu moins de CPU */
 /*@keyframes rainbow_animation_folders {
   0%   {background-color: #ff000050;}
 	10%  {background-color: #ff450050;}
