@@ -18,6 +18,33 @@
 /*@import url(https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css);*/
 
 
+/* Custom Emoji */
+/*
+	!!READ THIS!!
+	
+	This theme lets you swap the default emojis of discord with the emojis of a provider of your choice.
+	To change the provider simply swap the marked word in the import url down below with a supported provider listed below.
+	The name of the provider is CASE SENSITIVE, meaning you have to write it exactly like it's written below.
+	Correct: Apple
+	False: apple, APPLE, aPpLe
+	
+	Supported Providers:
+		→ Apple
+		→ Facebook
+		→ Google
+		→ JoyPixels
+		→ Microsoft
+		→ OpenMoji
+		→ Samsung
+		→ WhatsApp
+*/
+
+/*                                                                                  REPLACE THIS    */
+/*                                                                                    ↓↓↓↓↓         */
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/JoyPixels.css);
+/*                                                                                    ↑↑↑↑↑         */
+/*                                                                                  REPLACE THIS    */
+
 
 /* Loading */
 /*.imageWrapperInner-3X03J4>*/.spinner-2RT7ZC  {
