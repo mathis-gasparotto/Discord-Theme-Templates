@@ -317,7 +317,7 @@
 
 
 /* settings icons for mutliple language*/
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG:before {
+/*.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG:before {
 	content: "";
 	position: absolute;
 	width: 24px;
@@ -417,7 +417,7 @@
 .sidebar-nqHbhN .side-2ur1Qk [aria-controls=logout-tab].item-3XjbnG:before {
 	-webkit-mask: url(https://clearvision.gitlab.io/icons/exit.svg);
 	mask: url(https://clearvision.gitlab.io/icons/exit.svg);
-}
+}*/
 
 
 
