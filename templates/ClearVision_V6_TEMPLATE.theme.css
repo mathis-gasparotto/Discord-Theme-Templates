@@ -277,9 +277,21 @@
 
 
 
-/* DM/channel bar */
+/* DM/channel sidebar */
 .sidebar-1tnWFu {
-  width: 230px;
+  width: 240px;
+}
+/* Voice channel status */
+.container-1zzFcN {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* Profil bar (bottom) */
+.container-YkUktl {
+  width: calc(100% - 16px);
+}
+.container-YkUktl .withTagAsButton-OsgQ9L {
+  min-width: none !important;
 }
 
 
