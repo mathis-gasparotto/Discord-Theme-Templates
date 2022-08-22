@@ -63,7 +63,11 @@
 /*.imageWrapperInner-3X03J4>*/.spinner-2RT7ZC>.inner-26JK4f span {
 	display: none;
 }
-
+.loadingWrapperInner-3CbkJc, .imageWrapperInner-3X03J4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
