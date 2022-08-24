@@ -73,12 +73,14 @@
 
 
 /* Image error Loading */
-.imageError-dy476I {
-  background-image: url(https://cdn.discordapp.com/attachments/705905456316416091/982812291512807424/Caca.png)!important;
+.imageErrorWrapper-3hFRJG {
+  background-image: url(https://cdn.discordapp.com/attachments/705905456316416091/982812291512807424/Caca.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.imageError-dy476I {
+.imageErrorWrapper-3hFRJG .imageError-dy476I {
   filter: none;
-  opacity: 1;
+  opacity: 0;
 }
 
 
