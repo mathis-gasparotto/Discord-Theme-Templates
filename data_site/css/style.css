@@ -56,8 +56,19 @@ body {
   left: 5%;
 }
 
-.logo-container .logo {
+.logo-container .logo-svg {
   width: 100px;
+  fill: var(--white-color);
+  width: 100px;
+  transition: 0.3s;
+  stroke: var(--white-color);
+}
+.logo-container .logo-svg .line {
+  stroke-width: 20px;
+  stroke: var(--primary-color);
+}
+.logo-container .logo-svg .inner {
+  fill: var(--primary-color);
 }
 
 .title-container {
