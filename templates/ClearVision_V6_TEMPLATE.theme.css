@@ -290,7 +290,7 @@
   --side-bar-bottom-sound-settings-btn-count: 3;
 }
 .sidebar-1tnWFu {
-  width: calc(160px + var(--side-bar-bottom-sound-settings-btn-count) * 20px);
+  min-width: calc(124px + var(--side-bar-bottom-sound-settings-btn-count) * 32px);
 }
 /* Voice channel status */
 .container-1zzFcN {
@@ -300,6 +300,8 @@
 /* Profil bar (bottom) */
 .container-YkUktl {
   width: calc(100% - 16px);
+  display: flex;
+  justify-content: space-between;
 }
 .container-YkUktl .withTagAsButton-OsgQ9L {
   min-width: auto !important;
