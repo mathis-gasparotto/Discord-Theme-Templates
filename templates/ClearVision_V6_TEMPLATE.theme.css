@@ -292,6 +292,9 @@
 .sidebar-1tnWFu {
   min-width: calc(124px + var(--side-bar-bottom-sound-settings-btn-count) * 32px);
 }
+.sidebar-1tnWFu.hidden-38rxp9 {
+  min-width: 0;
+}
 /* Voice channel status */
 .container-1zzFcN {
   padding-left: 0;
@@ -335,6 +338,9 @@
 }
 .wrapper-1_HaEi.guilds-2JjMmN {
 	width: calc(72px * var(--server-list-column-number));
+}
+.wrapper-1_HaEi.guilds-2JjMmN.hidden-10MsGQ {
+	width: 0;
 }
 
 
