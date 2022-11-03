@@ -780,3 +780,9 @@ html.platform-osx #app-mount #pluginNotice {
 body.foldercontentopened .base-2jDfDU {
   transition: 0.2s ease !important;
 }*/
+
+
+/* Disable inner bg */
+.bodyInnerWrapper-2bQs1k {
+  background: none;
+}
