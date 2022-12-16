@@ -293,10 +293,27 @@
 /* DM/channel sidebar */
 :root {
   --side-bar-bottom-sound-settings-btn-count: 3;
+  --name-width: 45px; /* to edit if needed */
 }
-.sidebar-1tnWFu {
+/* .sidebar-1tnWFu {
   min-width: calc(124px + var(--side-bar-bottom-sound-settings-btn-count) * 32px);
+} */
+/* ↓ New Version ↓ */
+.sidebar-1tnWFu {
+  min-width: calc(2*8px + 32px + 8px + var(--name-width) + 8px + var(--side-bar-bottom-sound-settings-btn-count) * 32px);
 }
+.container-YkUktl .withTagAsButton-OsgQ9L {
+  max-width: calc(32px + 8px + var(--name-width)) !important;
+  width: calc(32px + 8px + var(--name-width)) !important;
+  min-width: calc(32px + 8px + var(--name-width)) !important;
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.avatarWrapper-1B9FTW .nameTag-sc-gpq {
+  margin-right: 0;
+}
+/* End New Version */
 .sidebar-1tnWFu.hidden-38rxp9 {
   min-width: 0;
 }
