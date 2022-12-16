@@ -3,61 +3,61 @@
   font-style: normal;
   font-weight: 500;
   /* src: url(https://cdn.glitch.com/ec49dcb2-f55b-45c7-95be-e51f466e2cff%2Fwhitneymedium.woff?v=1610494284187) format("woff") */
-  src: url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/font/whitneymedium.woff) format("woff")
+  src: url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/fonts/whitney/whitneymedium.woff) format("woff")
 }
 @font-face {
   font-family: Whitney;
   font-style: italic;
   font-weight: 500;
   /* src: url(https://cdn.glitch.com/ec49dcb2-f55b-45c7-95be-e51f466e2cff%2Fwhitneymediumitalic.woff?v=1610494284817) format("woff") */
-  src: url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/font/whitneymediumitalic.woff) format("woff")
+  src: url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/fonts/whitney/whitneymediumitalic.woff) format("woff")
 }
 @font-face {
   font-family: Whitney;
   font-style: bold;
   font-weight: 700;
   /* src: url(https://cdn.glitch.com/ec49dcb2-f55b-45c7-95be-e51f466e2cff%2Fwhitneybold.woff?v=1610494282762) format("woff") */
-  src: url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/font/whitneybold.woff) format("woff")
+  src: url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/fonts/whitney/whitneybold.woff) format("woff")
 }
 @font-face {
   font-family: Whitney;
   font-style: normal;
   font-weight: 600;
   /* src: url(https://cdn.glitch.com/ec49dcb2-f55b-45c7-95be-e51f466e2cff%2Fwhitneysemibold.woff?v=1610494285485) format("woff") */
-  src: url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/font/whitneysemibold.woff) format("woff")
+  src: url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/fonts/whitney/whitneysemibold.woff) format("woff")
 }
 @font-face {
   font-family: Whitney;
   font-style: normal;
   font-weight: 400;
   /* src: url(https://cdn.glitch.com/ec49dcb2-f55b-45c7-95be-e51f466e2cff%2Fwhitneybook.woff?v=1610494282898) format("woff") */
-  src: url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/font/whitneybook.woff) format("woff")
+  src: url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/fonts/whitney/whitneybook.woff) format("woff")
 }
 @font-face {
   font-family: Whitney;
   font-style: normal;
   font-weight: 300;
   /* src: url(https://cdn.glitch.com/ec49dcb2-f55b-45c7-95be-e51f466e2cff%2Fwhitneylight.woff?v=1610494283298) format("woff") */
-  src: url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/font/whitneylight.woff) format("woff")
+  src: url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/fonts/whitney/whitneylight.woff) format("woff")
 }
 @font-face {
   font-family: Whitney;
   font-style: italic;
   font-weight: 600;
   /* src: url(https://cdn.glitch.com/ec49dcb2-f55b-45c7-95be-e51f466e2cff%2FWhitneySemiboldItalic.woff?v=1610494286027) format("woff") */
-  src: url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/font/WhitneySemiboldItalic.woff) format("woff")
+  src: url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/fonts/whitney/WhitneySemiboldItalic.woff) format("woff")
 }
 @font-face {
   font-family: Whitney;
   font-style: italic;
   font-weight: 400;
   /* src: url(https://cdn.glitch.com/ec49dcb2-f55b-45c7-95be-e51f466e2cff%2Fwhitneybookitalic.woff?v=1610494283334) format("woff") */
-  src: url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/font/whitneybookitalic.woff) format("woff")
+  src: url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/fonts/whitney/whitneybookitalic.woff) format("woff")
 }
 @font-face {
   font-family: Whitney;
   font-style: italic;
   font-weight: 300;
   /* src: url(https://cdn.glitch.com/ec49dcb2-f55b-45c7-95be-e51f466e2cff%2Fwhitneylightitalic.woff?v=1610494283680) format("woff") */
-  src: url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/font/whitneylightitalic.woff) format("woff")
+  src: url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/fonts/whitney/whitneylightitalic.woff) format("woff")
 }
