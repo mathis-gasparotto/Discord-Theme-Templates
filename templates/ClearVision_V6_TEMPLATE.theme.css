@@ -808,3 +808,10 @@ body.foldercontentopened .base-2jDfDU {
 .bodyInnerWrapper-2bQs1k {
   background: none;
 }
+
+
+/* Same background shading for all containers */
+
+.sidebar-1tnWFu, .wrapper-1_HaEi.guilds-2JjMmN {
+  background: rgba(0, 0, 0, calc(var(--background-shading) * 0.5));
+}
