@@ -810,8 +810,16 @@ body.foldercontentopened .base-2jDfDU {
 }
 
 
-/* Same background shading for all containers */
-
-.sidebar-1tnWFu, .wrapper-1_HaEi.guilds-2JjMmN {
+/* review background shading for all containers */
+/* servers sidebar */
+.wrapper-1_HaEi.guilds-2JjMmN {
+  background: rgba(0, 0, 0, calc(var(--background-shading) * 0.65));
+}
+/* channel/conv sidebar + members sidebar */
+.members-3WRCEx, .sidebar-1tnWFu{
+  background: rgba(0, 0, 0, calc(var(--background-shading) * 0.6));
+}
+/* chat */
+.chat-2ZfjoI .chatContent-3KubbW {
   background: rgba(0, 0, 0, calc(var(--background-shading) * 0.5));
 }
