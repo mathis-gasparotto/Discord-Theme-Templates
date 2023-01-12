@@ -813,13 +813,17 @@ body.foldercontentopened .base-2jDfDU {
 /* review background shading for all containers */
 /* servers sidebar */
 .wrapper-1_HaEi.guilds-2JjMmN {
-  background: rgba(0, 0, 0, calc(var(--background-shading) * 0.65));
+  background: rgba(0, 0, 0, calc(var(--background-shading) * .65));
 }
 /* channel/conv sidebar + members sidebar */
-.members-3WRCEx, .sidebar-1tnWFu{
-  background: rgba(0, 0, 0, calc(var(--background-shading) * 0.6));
+.members-3WRCEx, .sidebar-1tnWFu {
+  background: rgba(0, 0, 0, calc(var(--background-shading) * .6));
 }
-/* chat */
-.chat-2ZfjoI .chatContent-3KubbW {
-  background: rgba(0, 0, 0, calc(var(--background-shading) * 0.5));
+/* chat/vocal */
+.chat-2ZfjoI .chatContent-3KubbW, .chat-2ZfjoI .wrapper-1gVUIN {
+  background: rgba(0, 0, 0, calc(var(--background-shading) * .5));
+}
+/* vocal chat */
+.container-3XgAHv {
+  background: rgba(0, 0, 0, calc(var(--background-shading) * .01));
 }
