@@ -838,3 +838,13 @@ body.foldercontentopened .base-2jDfDU {
 .interactive-26HRN_:focus-within, .interactive-26HRN_:hover {
   background-color: var(--hover-color);
 }
+
+
+/* fix activities btn color in dev mode */
+.button-1EGGcP.buttonColor-3bP3fX.buttonDeveloperActivityShelf-3bhcwC, .button-1EGGcP .buttonColor-3bP3fX.buttonDeveloperActivityShelf-3bhcwC {
+  background: var(--main-color);
+  color: #fff;
+}
+.button-1EGGcP.buttonColor-3bP3fX.buttonDeveloperActivityShelf-3bhcwC.active-2HsifU, .button-1EGGcP .buttonColor-3bP3fX.buttonDeveloperActivityShelf-3bhcwC.active-2HsifU, .button-1EGGcP.buttonColor-3bP3fX.buttonDeveloperActivityShelf-3bhcwC:hover, .button-1EGGcP .buttonColor-3bP3fX.buttonDeveloperActivityShelf-3bhcwC:hover {
+  background: var(--hover-color);
+}
