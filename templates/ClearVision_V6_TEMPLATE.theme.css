@@ -827,3 +827,14 @@ body.foldercontentopened .base-2jDfDU {
 .container-3XgAHv {
   background: rgba(0, 0, 0, calc(var(--background-shading) * .01));
 }
+
+
+/* Custom dm tabs hover and active color */
+@media (min-width: 486px) {
+  .selected-26oxtA {
+    background-color: var(--hover-color);
+  }
+}
+.interactive-26HRN_:focus-within, .interactive-26HRN_:hover {
+  background-color: var(--hover-color);
+}
