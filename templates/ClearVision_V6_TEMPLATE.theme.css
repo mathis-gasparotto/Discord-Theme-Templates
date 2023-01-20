@@ -848,3 +848,11 @@ body.foldercontentopened .base-2jDfDU {
 .button-1EGGcP.buttonColor-3bP3fX.buttonDeveloperActivityShelf-3bhcwC.active-2HsifU, .button-1EGGcP .buttonColor-3bP3fX.buttonDeveloperActivityShelf-3bhcwC.active-2HsifU, .button-1EGGcP.buttonColor-3bP3fX.buttonDeveloperActivityShelf-3bhcwC:hover, .button-1EGGcP .buttonColor-3bP3fX.buttonDeveloperActivityShelf-3bhcwC:hover {
   background: var(--hover-color);
 }
+.colorable-3rVGna.yellow-1PagS8 {
+  background-color: rgba(0,0,0,.6);
+  color: #fff;
+}
+.colorable-3rVGna.yellow-1PagS8.active-3D763s, .colorable-3rVGna.yellow-1PagS8:hover {
+  background-color: var(--hover-color);
+  color: #fff;
+}
