@@ -856,3 +856,9 @@ body.foldercontentopened .base-2jDfDU {
   background-color: var(--hover-color);
   color: #fff;
 }
+
+
+/* fix text link color */
+:root {
+  --text-link: var(--url-color);
+}
