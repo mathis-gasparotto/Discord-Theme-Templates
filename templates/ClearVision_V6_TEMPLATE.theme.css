@@ -862,3 +862,9 @@ body.foldercontentopened .base-2jDfDU {
 :root {
   --text-link: var(--url-color);
 }
+
+
+/* fix server voice call badge */
+.iconBadge-32fMme.isCurrentUserConnected-1GQb_C {
+  background-color: transparent;
+}
