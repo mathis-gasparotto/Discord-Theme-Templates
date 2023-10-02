@@ -477,9 +477,10 @@
 
 
 /* horizontal server list */
-/*:root {
-	--server-size: 45px;/*var(--HSL-server-icon-size, var(--HSL-size, 35px))*/
-/*	--server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 10px));
+
+:root {
+	--server-size: 45px; /* var(--HSL-server-icon-size, var(--HSL-size, 35px)) */
+	--server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 10px));
   --server-container: calc(var(--server-size) + 20px);
   --server-direction: var(--HSL-server-direction, column);
 }
@@ -801,13 +802,15 @@ html.platform-osx #app-mount #pluginNotice {
 
 body.foldercontentopened .base-2jDfDU {
   transition: 0.2s ease !important;
-}*/
+}
+
 
 
 /* Disable inner bg */
 .bodyInnerWrapper-2bQs1k {
   background: none;
 }
+
 
 
 /* review background shading for all containers */
@@ -829,6 +832,7 @@ body.foldercontentopened .base-2jDfDU {
 }
 
 
+
 /* Custom dm tabs hover and active color */
 @media (min-width: 486px) {
   .selected-26oxtA {
@@ -838,6 +842,7 @@ body.foldercontentopened .base-2jDfDU {
 .interactive-26HRN_:focus-within, .interactive-26HRN_:hover {
   background-color: var(--hover-color);
 }
+
 
 
 /* fix activities btn color in dev mode */
@@ -858,16 +863,19 @@ body.foldercontentopened .base-2jDfDU {
 }
 
 
+
 /* fix text link color */
 :root {
   --text-link: var(--url-color);
 }
 
 
+
 /* fix server voice call badge */
 /* .iconBadge-32fMme.isCurrentUserConnected-1GQb_C {
   background-color: transparent;
 } */
+
 
 
 /* fix background of vc-spotify-player */
