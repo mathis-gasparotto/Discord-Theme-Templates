@@ -882,3 +882,20 @@ body.foldercontentopened .base-2jDfDU {
 #vc-spotify-player {
   background-color: transparent !important;
 }
+
+
+
+/* hide activity text prefix */
+.activity-2EQDZv {
+  font-size: 0;
+}
+.members-3WRCEx .member-2gU6Ar .activityText-1rR-8O strong {
+  font-size: 12px;
+}
+
+
+
+/* minimize members bar size */
+:root {
+  --members-width: 200px !important;
+}
