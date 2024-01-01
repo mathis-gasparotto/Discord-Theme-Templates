@@ -15,6 +15,6 @@ function copyLink(link, btn) {
   navigator.clipboard.writeText(link);
   let elem = document.createElement("p");
   elem.classList = "link-to-copy-info";
-  elem.innerHTML = "@import copied!";
+  elem.innerHTML = "copied!";
   insertAfter(btn, elem);
 }
