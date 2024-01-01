@@ -52,7 +52,7 @@
 
 
 /* Loading */
-/*.imageWrapperInner-3X03J4>*/.spinner-2RT7ZC  {
+/*.loadingWrapperInner__4eec6>*/.spinner_f931ee  {
 	background-image: url(https://i.imgur.com/KcIGkkN.gif);
 	/*
 	*	STEVE FORTNITE DANCE : https://i.imgur.com/KcIGkkN.gif
@@ -65,10 +65,10 @@
 	animation: none;
 	-webkit-animation: none;
 }
-/*.imageWrapperInner-3X03J4>*/.spinner-2RT7ZC>.inner-26JK4f span {
+/*.loadingWrapperInner__4eec6>*/.spinner_f931ee>.inner_ea0cea span {
 	display: none;
 }
-.loadingWrapperInner-3CbkJc, .imageWrapperInner-3X03J4 {
+.loadingWrapperInner-3CbkJc, .loadingWrapperInner__4eec6 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,12 +78,12 @@
 
 
 /* Image error Loading */
-.imageErrorWrapper-3hFRJG {
+.imageErrorWrapper__0a887 {
   background-image: url(https://i.imgur.com/9IY5zzB.png);
   background-repeat: no-repeat;
   background-position: center;
 }
-.imageErrorWrapper-3hFRJG .imageError-dy476I {
+.imageErrorWrapper__0a887 .imageError__77b3e {
   filter: none;
   opacity: 0;
 }
@@ -107,7 +107,7 @@
 }*/
 
 /* V2 - Pompe un peu moins de CPU */
-/*@keyframes rainbow_animation_folders {
+@keyframes rainbow_animation_folders {
   0%   {background-color: #ff000050;}
 	10%  {background-color: #ff450050;}
 	20%  {background-color: #ffa50050;}
@@ -120,9 +120,25 @@
 	90%  {background-color: #ff007650;}
 	100% {background-color: #ff000050;}
 }
-.folder__17546{
+@keyframes rainbow_animation_folders_icons {
+  0%   {color: #ff000050;}
+	10%  {color: #ff450050;}
+	20%  {color: #ffa50050;}
+	30%  {color: #ffff0050;}
+	40%  {color: #9acd3250;}
+	50%  {color: #40e0d050;}
+	60%  {color: #0000ff50;}
+	70%  {color: #5604f850;}
+	80%  {color: #f804f150;}
+	90%  {color: #ff007650;}
+	100% {color: #ff000050;}
+}
+.closedFolderIconWrapper__7321f {
   animation: rainbow_animation_folders 7.5s linear infinite !important;
-}*/
+}
+.expandedFolderIconWrapper__458cf svg {
+  animation: rainbow_animation_folders_icons 7.5s linear infinite !important;
+}
 
 
 
@@ -140,26 +156,26 @@
 
 
 /* Search box en transparent */
-#app-mount .container-2McqkF {
+/* #app-mount .container-2McqkF {
   background: rgba(43, 43, 43, 0.2);
   backdrop-filter: blur(30px);
-}
+} */
 
 
 
 
 
 /* Private call avatar muted badge color */
-.status-1ZXjSF {
+/* .status__4454b {
   background-color: var(--main-color);
-}
+} */
 
 
 
 
 
 /* Icon mute de serv en main color */
-.icon-N9JZb6 {
+.icon__1d60c {
   color: var(--main-color);
 }
 
@@ -202,27 +218,27 @@
 
 /* User Card Transparent et sans truc au-dessus */
 /* Card tranparent */
-/*.userPopout-2j1gM4{
+/* .userPopout-2j1gM4{
 	background: rgba(43, 43, 43, 0.2);
   backdrop-filter: blur(30px);
-}*/
+} */
 /* Sans le header - Little Card */
-.userPopout-2j1gM4 .headerNormal-3Zn_yu .banner-1YaD3N.popoutBanner-3cqRD9 {
+/* .userPopout-2j1gM4 .headerNormal-3Zn_yu .banner-1YaD3N.popoutBanner-3cqRD9 {
 	background: var(--user-popout-overlay) !important;
-}
+} */
 /* Sans le header - Big Card */
-.banner-1YaD3N.profileBanner-1owKI5 {
+/* .banner-1YaD3N.profileBanner-1owKI5 {
 	background: var(--user-popout-overlay) !important;
 	-webkit-mask: linear-gradient(rgba(0, 0, 0, 0.95) 5%, rgba(0, 0, 0, 0.5) 50%, transparent);
   mask: linear-gradient(rgba(0, 0, 0, 0.95) 5%, rgba(0, 0, 0, 0.5) 50%, transparent);
-}
+} */
 
 
 
 
 
 /* barre gauche des embed en conv */
-.embed-hKpSrO {
+.embed_d3cbe3 {
 	border-color: var(--main-color) !important;
 }
 
@@ -301,6 +317,12 @@
 /* ↓ New Version ↓ */
 .sidebar_ded4b5 {
   min-width: calc(2*8px + 32px + 8px + var(--name-width) + 8px + var(--side-bar-bottom-sound-settings-btn-count) * 32px);
+}
+.withTagAsButton_cc125f {
+  padding-left: 0 !important;
+}
+.nameTag__0e320 {
+  margin-right: 0 !important;
 }
 .container-YkUktl .withTagAsButton-OsgQ9L {
   max-width: calc(32px + 8px + var(--name-width)) !important;
@@ -876,10 +898,10 @@ body.foldercontentopened .base__3e6af {
 
 
 /* hide activity text prefix */
-.activity-2EQDZv {
+.activityText__47ec1 {
   font-size: 0;
 }
-.members-3WRCEx .member-2gU6Ar .activityText-1rR-8O strong {
+.activityText__47ec1 strong {
   font-size: 12px;
 }
 
