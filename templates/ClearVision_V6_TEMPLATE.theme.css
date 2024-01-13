@@ -52,7 +52,16 @@
 
 
 /* Loading */
-/*.loadingWrapperInner__4eec6>*/.spinner_f931ee  {
+.loadingOverlay__4d818 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imageLoadingOverlay_fbe6d9, .spinner_f931ee  {
+	width: 100px;
+	height: 100px;
+}
+.spinner_f931ee  {
 	background-image: url(https://i.imgur.com/KcIGkkN.gif);
 	/*
 	*	STEVE FORTNITE DANCE : https://i.imgur.com/KcIGkkN.gif
@@ -60,20 +69,13 @@
 	*	DANCING CAT : https://i.imgur.com/LmKnw9Y.gif 
 	*/
 	background-size: 100%;
-	width: 80px;
-	height: 80px;
+  background-repeat: no-repeat;
 	animation: none;
 	-webkit-animation: none;
 }
-/*.loadingWrapperInner__4eec6>*/.spinner_f931ee>.inner_ea0cea span {
+.spinner_f931ee>.inner_ea0cea span, .spinningCircleInner__958da {
 	display: none;
 }
-.loadingWrapperInner-3CbkJc, .loadingWrapperInner__4eec6 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 
 
 
