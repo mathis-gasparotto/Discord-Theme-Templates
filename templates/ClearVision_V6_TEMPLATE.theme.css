@@ -916,3 +916,9 @@ body.foldercontentopened .base_c0676e {
 .layout_bb8e67 {
   padding: 0 4px !important;
 }
+
+
+/* fix mute and deafen icons color */
+.status_db83a2 path {
+  fill: #fff !important;
+}
