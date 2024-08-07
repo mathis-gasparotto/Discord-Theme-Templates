@@ -920,3 +920,14 @@ body.foldercontentopened .base_a4d4d9 {
 .status_db83a2 path {
   fill: #fff !important;
 }
+
+
+/* Fix username style on Threads */
+.name_d808b0 {
+  font-size: 14px;
+}
+.members_cbd271 .member_a31c43 .activityText_a31c43 strong {
+  color: var(--main-color);
+  font-weight: 700;
+  transition: all .15s ease-in-out;
+}
