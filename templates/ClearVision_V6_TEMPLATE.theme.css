@@ -888,11 +888,19 @@ body.foldercontentopened .base_c48ade {
   background-color: transparent !important;
 }
 
-/* hide activity text prefix */
+/* hide activity text prefix on server members */
 .activityText__5d473 {
   font-size: 0;
 }
 .activityText__5d473 strong {
+  font-size: 12px;
+}
+
+/* hide activity text prefix on DMs */
+.dm__972a0 .subText__20a53 .text__8ac07:first-of-type {
+  font-size: 0;
+}
+.dm__972a0 .subText__20a53 .text__8ac07:first-of-type strong {
   font-size: 12px;
 }
 
