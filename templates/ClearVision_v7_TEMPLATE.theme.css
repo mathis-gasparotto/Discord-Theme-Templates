@@ -871,7 +871,7 @@ body.foldercontentopened .base_c48ade {
 
 /* minimize members bar size */
 :root {
-  --members-width: 200px !important;
+  --custom-member-list-width: 200px !important;
 }
 .layout_bb8e67 {
   padding: 0 4px !important;
