@@ -1,14 +1,14 @@
 /**
- * @name ClearVision - MontagneV2
- * @version 6.3.0
+ * @name ClearVision - Soleil
+ * @version 7.0.0
  * @author Maggio
- * @description Theme ClearVision 6.3 edited by Maggio
- * @source https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/themes/ClearVision_v6_MontagneV2.theme.min.css
- * @website https://mathis-gasparotto.github.io/Discord-Theme-Templates/
+ * @description Theme ClearVision 7.0 edited by Maggio
+ * @source https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/themes/ClearVision_v7_Soleil.theme.min.css
+ * @website hhttps://mathis-gasparotto.github.io/Discord-Theme-Templates/
  * @invite kV3fj5F6fF
  */
 
-@import url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/templates/ClearVision_v6_TEMPLATE.theme.min.css);
+@import url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/templates/ClearVision_v7_TEMPLATE.theme.min.css);
 
 /* SETTINGS */
 :root {
@@ -41,7 +41,7 @@
     0,
     0.6
   ); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
-  --background-image: url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/data/bg-Montagne.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.gitlab.io/images/sapphire.jpg)]*/
+  --background-image: url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/data/bg-Soleil.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.gitlab.io/images/sapphire.jpg)]*/
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size [default: cover] */
   --background-repeat: no-repeat; /* app background repeat [default: no-repeat] */

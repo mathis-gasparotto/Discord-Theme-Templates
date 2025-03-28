@@ -1,22 +1,43 @@
 /**
- * @name ClearVision - MontagneV2
- * @version 6.3.0
+ * @name ClearVision - Robot
+ * @version 7.0.0
  * @author Maggio
- * @description Theme ClearVision 6.3 edited by Maggio
- * @source https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/themes/ClearVision_v6_MontagneV2.theme.min.css
+ * @description Theme ClearVision 7.0 edited by Maggio
+ * @source https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/themes/ClearVision_v7_Robot.theme.min.css
  * @website https://mathis-gasparotto.github.io/Discord-Theme-Templates/
  * @invite kV3fj5F6fF
  */
 
-@import url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/templates/ClearVision_v6_TEMPLATE.theme.min.css);
+@import url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/templates/ClearVision_v7_TEMPLATE.theme.min.css);
 
 /* SETTINGS */
 :root {
   /* ACCENT COLORS */
-  --main-color: #b87028; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
-  --hover-color: #b87028; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
+  --main-color: #ff4e00; /* main accent color (hex, rgb or hsl) [default: #2780e6] */ /*orange comme les autres : #B87028*/ /*orange plus original : #ec3e00*/
+  --hover-color: #ff4e00; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */ /*orange comme les autres : #B87028*/ /*orange plus original : #ec3e00*/
   --success-color: #43b581; /* success accent color (hex, rgb or hsl) [default: #43b581] */
   --danger-color: #982929; /* danger accent color (hex, rgb or hsl) [default: #982929] */
+
+  /* Customization Patch */
+  --channel-unread: var(
+    --main-color
+  ); /* Unread Server channel color. [default:  var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
+  --channel-color: rgba(
+    255,
+    255,
+    255,
+    0.3
+  ); /*Read Server channel color  [default: rgba(255,255,255,0.3);]*/
+  --channel-text-selected: #fff; /* Selected channel text color, CV default is #fff */
+  --muted-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /*Muted channel color  [default: rgba(255,255,255,0.1);]*/
+  --url-color: var(
+    --main-color
+  ); /*The color of url links [default: var(--main-color)]*/
 
   /* STATUS COLORS */
   --online-color: #43b581; /* online status color (hex, rgb or hsl) [default: #43b581] */
@@ -28,7 +49,12 @@
   /* GENERAL */
   --main-font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif; /* main font for app (font must be installed) [default: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif] */
   --code-font: Consolas, Liberation Mono, Menlo, Courier, monospace; /* font for codeblocks (font must be installed) [default: Consolas, Liberation Mono, Menlo, Courier, monospace] */
-  --server-columns: 1; /* amount of server list columns [default: 1] */
+  --text-normal: rgb(220, 221, 222); /* color of default discord text */
+  --text-muted: rgb(
+    114,
+    118,
+    125
+  ); /* color of default discord muted text (e.g.text found in input fields before typing).*/
   --channels-width: 220px; /* channel list width (240px for Discord default) [default: 220px] */
   --members-width: 240px; /* member list width [default: 240px] */
   --avatar-roundness: 50%; /* avatar roundness (0% for squares, 50% for circles) [default: 50%] */
@@ -41,7 +67,7 @@
     0,
     0.6
   ); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
-  --background-image: url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/data/bg-Montagne.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.gitlab.io/images/sapphire.jpg)]*/
+  --background-image: url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/data/bg-Robot.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.gitlab.io/images/sapphire.jpg)]*/
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size [default: cover] */
   --background-repeat: no-repeat; /* app background repeat [default: no-repeat] */
@@ -178,4 +204,15 @@
   --user-modal-blur: calc(
     var(--background-blur) + 3px
   ); /* user modal background blur [default: calc(var(--background-blur) + 3px)] */
+
+  /* THEME BD COLORS */
+  --bd-blue: var(
+    --main-color
+  ); /* betterdiscord main color [default: var(--main-color)] */
+  --bd-blue-hover: var(
+    --hover-color
+  ); /* betterdiscord hover color [default: var(--hover-color)] */
+  --bd-blue-active: var(
+    --hover-color
+  ); /* betterdiscord active color [default: var(--hover-color)] */
 }
