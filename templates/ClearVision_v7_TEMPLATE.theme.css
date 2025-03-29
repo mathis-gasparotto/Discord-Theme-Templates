@@ -980,3 +980,8 @@ body.foldercontentopened .base_c48ade {
   height: 28px !important;
   width: 28px !important;
 }
+
+/* fix bot tag color */
+#app-mount [class*='botTag_'] {
+  background-color: var(--main-color) !important;
+}
