@@ -901,26 +901,53 @@ body.foldercontentopened .base_c48ade {
 #app-mount [class*='sidebar_'] [class*='panels_'] {
   padding: 6px !important;
 }
-#app-mount [class*='sidebar_'] [class*='panels_'] [class*='container_'] {
+#app-mount [class*='sidebar_'] [class*='panels_'] > [class*='container_'] {
   gap: 5px !important;
   padding: 0 !important;
 }
+/* vocal bar */
+#app-mount
+  [class*='sidebar_']
+  [class*='panels_']
+  > [class*='wrapper_']
+  [class*='connection_']
+  [class*='inner_']
+  [class*='text-sm/medium_'] {
+  font-size: 12px !important;
+}
+#app-mount
+  [class*='sidebar_']
+  [class*='panels_']
+  > [class*='wrapper_']
+  [class*='connection_']
+  [class*='inner_']
+  [class*='text-md/medium_'] {
+  font-size: 14px !important;
+}
+#app-mount
+  [class*='sidebar_']
+  [class*='panels_']
+  > [class*='wrapper_']
+  [class*='actionButtons_']
+  button {
+  padding: 0 12px !important;
+}
 /* activity bar */
-#app-mount [class*='sidebar_'] [class*='panels_'] [class*='activityPanel_'] {
+#app-mount [class*='sidebar_'] [class*='panels_'] > [class*='activityPanel_'] {
   padding: 0 !important;
 }
 /* avatar */
 #app-mount
   [class*='sidebar_']
   [class*='panels_']
-  [class*='container_']
+  > [class*='container_']
   [class*='avatarWrapper_'] {
   gap: 5px !important;
 }
 #app-mount
   [class*='sidebar_']
   [class*='panels_']
-  [class*='container_']
+  > [class*='container_']
   [class*='avatarWrapper_']
   [class*='avatar_'] {
   margin-right: -10px !important;
@@ -929,7 +956,7 @@ body.foldercontentopened .base_c48ade {
 #app-mount
   [class*='sidebar_']
   [class*='panels_']
-  [class*='container_']
+  > [class*='container_']
   [class*='avatarWrapper_']
   [class*='avatar_']
   svg {
@@ -940,14 +967,14 @@ body.foldercontentopened .base_c48ade {
 #app-mount
   [class*='sidebar_']
   [class*='panels_']
-  [class*='container_']
+  > [class*='container_']
   [class*='buttons_'] {
   gap: 0 !important;
 }
 #app-mount
   [class*='sidebar_']
   [class*='panels_']
-  [class*='container_']
+  > [class*='container_']
   [class*='buttons_']
   > * {
   height: 28px !important;
