@@ -456,7 +456,7 @@
   --server-container: calc(var(--server-size) + 10px + 5px + 3px);
   --server-direction: var(--HSL-server-direction, column);
 }
-#app-mount .sidebar_c48ade {
+#app-mount [class*='sidebar_'] {
   border-radius: 0;
   overflow: visible;
   padding-top: var(--server-container) !important;
@@ -477,7 +477,7 @@
   bottom: unset;
   position: absolute !important;
   left: 0;
-  padding-left: 5px;
+  padding-left: 3px;
   padding-right: 3px;
   background: rgba(0, 0, 0, calc(var(--background-shading) * 0.3));
 }
@@ -525,7 +525,7 @@
   transform: rotate(90deg) translateY(-50%);
   height: var(--server-size);
   width: 4px;
-  top: calc(var(--server-size) / -1 + var(--server-size) / 2 - 8px) !important;
+  top: calc(var(--server-size) / -1 + var(--server-size) / 2 - 6px) !important;
   margin-left: -2px;
 }
 #app-mount [class*='guilds_'] [class*='pill'] span {
@@ -679,13 +679,13 @@
   margin: 0 10px;
   position: unset;
 }
-#app-mount
+/* #app-mount
   [class*='guilds_']
   [class*='listItem']:not([class*='listItemWrapper'])
   svg {
   top: 0 !important;
   left: 0 !important;
-}
+} */
 #app-mount [class*='guilds_'] [class*='guildSeparator'] {
   transform: rotate(90deg);
   width: var(--server-size);
