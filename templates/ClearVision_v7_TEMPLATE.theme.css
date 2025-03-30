@@ -976,7 +976,7 @@ body.foldercontentopened .base_c48ade {
   [class*='panels_']
   > [class*='container_']
   [class*='buttons_']
-  > * {
+  [class*='button_'] {
   height: 28px !important;
   width: 28px !important;
 }
