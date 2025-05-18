@@ -477,7 +477,7 @@
   bottom: unset;
   position: absolute !important;
   left: 0;
-  background: var(--background-shading);
+  background: var(--card-shading);
 }
 #app-mount [class*='guilds_'] [class*='stack_'][aria-label='Server'] {
   gap: var(--server-spacing) !important;
