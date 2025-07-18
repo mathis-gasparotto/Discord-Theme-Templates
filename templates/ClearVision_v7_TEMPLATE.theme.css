@@ -852,18 +852,18 @@ body.foldercontentopened .base_c48ade {
 }
 
 /* hide activity text prefix on server members */
-[class*='memberInner_'] [class*='subText_'] [class*='overflow_'] {
+[class*='memberInner_'] [class*='subText_'] [class*='textWithIconContainer_'] > *:last-child {
   font-size: 0;
 }
-[class*='memberInner_'] [class*='subText_'] [class*='overflow_'] strong {
+[class*='memberInner_'] [class*='subText_'] [class*='textWithIconContainer_'] > *:last-child strong {
   font-size: 12px;
 }
 
 /* hide activity text prefix on DMs */
-[class*='dm_'] [class*='subText_'] [class*='overflow_'] {
+[class*='dm_'] [class*='subText_'] [class*='textWithIconContainer_'] > *:last-child {
   font-size: 0;
 }
-[class*='dm_'] [class*='subText_'] [class*='overflow_'] strong {
+[class*='dm_'] [class*='subText_'] [class*='textWithIconContainer_'] > *:last-child strong {
   font-size: 12px;
 }
 
