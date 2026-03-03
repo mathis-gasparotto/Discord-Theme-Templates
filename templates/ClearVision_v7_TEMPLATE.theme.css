@@ -659,7 +659,6 @@
 }
 /* folders icon */
 #app-mount [class*='guilds_'] [class*='wrapper_'] {
-  width: var(--server-container);
   display: flex;
   flex-direction: var(--server-direction);
 }
