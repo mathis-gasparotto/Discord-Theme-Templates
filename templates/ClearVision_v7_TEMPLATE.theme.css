@@ -662,6 +662,10 @@
   display: flex;
   flex-direction: var(--server-direction);
 }
+/* folders bg */
+#app-mount [class*='guilds_'] [class*='folderGroupBackground_'] {
+  left: 6px !important
+}
 /* folder content */
 #app-mount [class*='guilds_'] [class*='wrapper_'] ul[role='group'] {
   display: flex;
