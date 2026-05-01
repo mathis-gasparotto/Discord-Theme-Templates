@@ -1,0 +1,95 @@
+/* V1 - Pompe bcp de CPU */
+/*@keyframes rainbow_animation_folders {
+  0%, 100% {background-position: 0 0;}
+  50% {background-position: 100% 0;}
+}
+.folderIconWrapper-1oRIZr{    
+  background: none;
+  background-image: linear-gradient(to right, #ff000050, #FF8C0030, #FFD70030, #00FF0030, #00BFFF30 , #6600FF30, #BA55D330 ) !important;
+  background-size: 400% 100% !important;
+  animation: rainbow_animation_folders 10s linear infinite !important;
+}*/
+
+/* V2 - Pompe un peu moins de CPU */
+@keyframes rainbow_animation_folders {
+  0% {
+    background-color: #ff000050;
+  }
+  10% {
+    background-color: #ff450050;
+  }
+  20% {
+    background-color: #ffa50050;
+  }
+  30% {
+    background-color: #ffff0050;
+  }
+  40% {
+    background-color: #9acd3250;
+  }
+  50% {
+    background-color: #40e0d050;
+  }
+  60% {
+    background-color: #0000ff50;
+  }
+  70% {
+    background-color: #5604f850;
+  }
+  80% {
+    background-color: #f804f150;
+  }
+  90% {
+    background-color: #ff007650;
+  }
+  100% {
+    background-color: #ff000050;
+  }
+}
+@keyframes rainbow_animation_folders_icons {
+  0% {
+    color: #ff000050;
+  }
+  10% {
+    color: #ff450050;
+  }
+  20% {
+    color: #ffa50050;
+  }
+  30% {
+    color: #ffff0050;
+  }
+  40% {
+    color: #9acd3250;
+  }
+  50% {
+    color: #40e0d050;
+  }
+  60% {
+    color: #0000ff50;
+  }
+  70% {
+    color: #5604f850;
+  }
+  80% {
+    color: #f804f150;
+  }
+  90% {
+    color: #ff007650;
+  }
+  100% {
+    color: #ff000050;
+  }
+}
+/* Oppened folder background rainbow */
+[class*='folderGroupBackground_'] {
+  animation: rainbow_animation_folders 7.5s linear infinite !important;
+}
+/* Closed folder background rainbow */
+[class*='folderPreviewWrapper_'] {
+  animation: rainbow_animation_folders 7.5s linear infinite !important;
+}
+/* Icons rainbow */
+/* [class*='folderIcon_'] svg {
+  animation: rainbow_animation_folders_icons 7.5s linear infinite !important;
+} */

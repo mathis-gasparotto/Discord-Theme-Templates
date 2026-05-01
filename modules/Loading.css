@@ -1,0 +1,38 @@
+/* Loading */
+.loadingOverlay__4d818 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imageLoadingOverlay_fbe6d9,
+.sp-innerf931ee {
+  width: 100px;
+  height: 100px;
+}
+.sp-innerf931ee {
+  background-image: url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/data/steve_fortnite.gif);
+  /*
+	*	STEVE FORTNITE DANCE : https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/data/steve_fortnite.gif
+	*	DOG SPINNING : https://media.discordapp.net/attachments/563023803899445268/563040952906678272/Chien_incroyable_GIF.gif
+	*	DANCING CAT : https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/data/dancing_cat.gif 
+	*/
+  background-size: 100%;
+  background-repeat: no-repeat;
+  animation: none;
+  -webkit-animation: none;
+}
+.sp-innerf931ee > .-innerea0cea span,
+.spinningCircleInner__958da {
+  display: none;
+}
+
+/* Image error Loading */
+.imageErrorWrapper__0a887 {
+  background-image: url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/data/Caca.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.imageErrorWrapper__0a887 .imageError__77b3e {
+  filter: none;
+  opacity: 0;
+}

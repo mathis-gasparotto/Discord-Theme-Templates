@@ -1,0 +1,21 @@
+/* Multiple serv column */
+:root {
+  --server-list-column-number: 1;
+}
+[class*='scroller_'][class*='none_'][class*='scrollerBase_'] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+[class*='scroller_'][class*='none_'][class*='scrollerBase_'] > div[aria-label] {
+  display: grid;
+  grid-template-columns: repeat(var(--server-list-column-number), 1fr);
+  /* row-gap: 0;
+  column-gap: 0; */
+}
+[class*='-wrapper'][class*='-guilds'] {
+  width: calc(72px * var(--server-list-column-number));
+}
+[class*='-wrapper'][class*='-guilds'][class*='hidden-'] {
+  width: 0;
+}
