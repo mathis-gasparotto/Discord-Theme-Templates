@@ -287,7 +287,7 @@
 :root {
   --custom-app-top-bar-height: 30px;
 }
-#app-mount [class*='bar_'] {
+#app-mount [class*='bar_']:not[class*='sidebar_'] {
   max-height: var(--custom-app-top-bar-height);
 }
 
