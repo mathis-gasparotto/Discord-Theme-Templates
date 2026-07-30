@@ -4,16 +4,16 @@
  * @author Maggio
  * @description Template of ClearVision 6.3 Theme, by Maggio
  * @source https://github.com/ClearVision/ClearVision-v6
- * @website https://mathis-gasparotto.github.io/Discord-Theme-Templates/
+ * @website https://mathis-gp.github.io/Discord-Theme-Templates/
  * @invite kV3fj5F6fF
  */
 
 /* IMPORT CSS */
 @import url(https://clearvision.github.io/ClearVision-v6/main.css);
-/* @import url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/main-ClearVision_v6.css); */
+/* @import url(https://mathis-gp.github.io/Discord-Theme-Templates/src/main-ClearVision_v6.css); */
 
 @import url(https://clearvision.github.io/Addons/whitney.css);
-/* @import url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/whitney-ClearVision.min.css); */
+/* @import url(https://mathis-gp.github.io/Discord-Theme-Templates/src/whitney-ClearVision.min.css); */
 
 /* @import url(https://leafyluigi.github.io/CVv6-CustomCSS/Custom-CSS.css); */
 
@@ -59,11 +59,11 @@
   height: 100px;
 }
 .spinner_f931ee {
-  background-image: url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/data/steve_fortnite.gif);
+  background-image: url(https://mathis-gp.github.io/Discord-Theme-Templates/src/data/steve_fortnite.gif);
   /*
-	*	STEVE FORTNITE DANCE : https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/data/steve_fortnite.gif
+	*	STEVE FORTNITE DANCE : https://mathis-gp.github.io/Discord-Theme-Templates/src/data/steve_fortnite.gif
 	*	DOG SPINNING : https://media.discordapp.net/attachments/563023803899445268/563040952906678272/Chien_incroyable_GIF.gif
-	*	DANCING CAT : https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/data/dancing_cat.gif 
+	*	DANCING CAT : https://mathis-gp.github.io/Discord-Theme-Templates/src/data/dancing_cat.gif 
 	*/
   background-size: 100%;
   background-repeat: no-repeat;
@@ -77,7 +77,7 @@
 
 /* Image error Loading */
 .imageErrorWrapper__0a887 {
-  background-image: url(https://mathis-gasparotto.github.io/Discord-Theme-Templates/src/data/Caca.png);
+  background-image: url(https://mathis-gp.github.io/Discord-Theme-Templates/src/data/Caca.png);
   background-repeat: no-repeat;
   background-position: center;
 }
