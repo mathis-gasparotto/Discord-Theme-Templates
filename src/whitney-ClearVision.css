@@ -61,3 +61,7 @@
   /* src: url(https://cdn.glitch.com/ec49dcb2-f55b-45c7-95be-e51f466e2cff%2Fwhitneylightitalic.woff?v=1610494283680) format("woff") */
   src: url(https://mathis-gp.github.io/Discord-Theme-Templates/src/fonts/whitney/whitneylightitalic.woff) format("woff")
 }
+
+:root{
+  --font-primary: var(--main-font);
+}
