@@ -492,3 +492,8 @@
 #app-mount [class*='botTag_'] {
   background-color: var(--main-color) !important;
 }
+
+/* remove additional padding on nameplated member container */
+[class*='childContainer_'][class*='nameplated_'] {
+  padding-inline-end: 8px !important;
+}
