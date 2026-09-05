@@ -497,3 +497,8 @@
 [class*='childContainer_'][class*='nameplated_'] {
   padding-inline-end: 8px !important;
 }
+
+/* hide notify when you are on vocal and there is no sound from mic */
+[class*='appAsidePanelWrapper_']  [class*='notice_'] {
+  display: none !important;
+}
